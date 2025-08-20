@@ -110,7 +110,7 @@ def llm_assess(ctx: NoteContext):
     })
 
 @app.post("/assess-2480067")
-def assess_note_context(ctxs: List[NoteContext]):
+async def assess_note_context(ctxs: List[NoteContext]):
     results = []
     for ctx in ctxs:
         try:
