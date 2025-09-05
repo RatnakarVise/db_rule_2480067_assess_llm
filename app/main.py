@@ -72,7 +72,6 @@ Your job:
    - Reference program/include/type/name.
    - Ask to search for any usage of RFUMSV00 (case-insensitive, including dynamic SUBMITs or CALL TRANSACTION patterns).
    - Replace them with calls to DRC equivalent processes, ensuring identical tax reporting logic.
-   - Require JSON output with keys: original_code_snippet, remediated_code_snippet, changes[] (line/before/after/reason).
 
 Return ONLY strict JSON:
 {{
